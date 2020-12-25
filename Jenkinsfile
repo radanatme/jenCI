@@ -15,7 +15,7 @@ node {
 	println SERVER_KEY_CREDENTIALS_ID
 	println DEPLOYDIR
 	println TEST_LEVEL
-	prinln SF_INSTANCE_URL
+	println SF_INSTANCE_URL
 	
 
     def toolbelt = tool 'toolbelt'
