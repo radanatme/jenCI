@@ -1,5 +1,5 @@
 #!groovy
-import groovy.json.JsonSlurperClassic
+
 node {
 
     def SF_CONSUMER_KEY=env.SF_CONSUMER_KEY
@@ -16,7 +16,6 @@ node {
 	println DEPLOYDIR
 	println TEST_LEVEL
 	println SF_INSTANCE_URL
-	
 
     def toolbelt = tool 'toolbelt'
 
