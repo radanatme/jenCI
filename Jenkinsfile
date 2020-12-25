@@ -9,12 +9,14 @@ node {
     def TEST_LEVEL='RunLocalTests'
     def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://login.salesforce.com"
 
+	println 'You got this!!'
 	println 'ENVIRONMENT VARIABLES'
 	println SF_CONSUMER_KEY
 	println SERVER_KEY_CREDENTIALS_ID
 	println DEPLOYDIR
 	println TEST_LEVEL
 	prinln SF_INSTANCE_URL
+	
 
     def toolbelt = tool 'toolbelt'
 
